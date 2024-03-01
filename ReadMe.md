@@ -11,7 +11,7 @@ We want to see whats hiding in the criminals webserver. Why don't we exploit the
 
 1. Create a file called `shell.php`, or whatever name you want to call your malware. (We are writing with php so feel free to obfuscate as you'd like for practice. You'll get brownie points?)
 
-2. We want to be able to execute shell commands from the URL or setup a reverse shell. Refer to Dr. O'learys Cyber Operations text book for details on how to setup reverse shells, and/or look into what a netcat listener is. Brownie Points for making a reverse shell, however for this lab we will just be focusing on pumping commands through the URL field in our browser.
+2. We want to be able to execute shell commands from the URL or setup a reverse shell. Refer to Dr. O'learys [Cyber Operations text book](https://www.amazon.com/Cyber-Operations-Building-Defending-Attacking/dp/1484242939) for details on how to setup reverse shells, and/or look into what a netcat listener is. Brownie Points for making a reverse shell, however for this lab we will just be focusing on pumping commands through the URL field in our browser.
 
 - How can we execute shell commands through our browser? We want the server to recognize our GET requests as shell commands with the input `cmd`. Here is an example of how I would build mine:
 
