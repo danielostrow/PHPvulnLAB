@@ -1,7 +1,7 @@
 ## PHP Vuln LAB
 
 ### Setup
-1. To run the lab, make sure you have docker engine installed. The lab can be started by changing directories `cd LAB` and then you can start the container by running `sudo docker-compose up --build --remove-orphans`. - Note that if you currently use docker, the flag `--remove-orphans` may effect other containers you have. Consider changing the ports used in the configs and run with the basic `docker-compose up --build`.
+1. To run the lab, make sure you have docker engine installed. The lab can be started by changing directories `cd LAB`. Create an uploads page by typing from the `LAB` directory `mkdir /src/uploads` and then you can start the container by running `sudo docker-compose up --build --remove-orphans`. - Note that if you currently use docker, the flag `--remove-orphans` may effect other containers you have. Consider changing the ports used in the configs and run with the basic `docker-compose up --build`.
 
 2. Open your web browser and navigate to `http://localhost:8080/`
 
