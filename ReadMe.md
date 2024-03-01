@@ -28,7 +28,7 @@ if (isset($_GET['cmd'])) {
 }
 ?>
 ```
-3. Upload your fresh and snazzy malware to the upload link and navigate to `http://localhost:8080/uploads/`. Use your intuition from here to see if you can inject some commands!
+3. Upload your fresh and snazzy malware to the upload link and navigate to `http://localhost:8080/uploads/`. Use your intuition from here to see if you can inject some commands and locate the super secret flag!
 
 Example Input:
 `http://localhost:8080/uploads/shell.php?cmd=whoami`
